@@ -1,0 +1,4 @@
+export const DATABASE_PROVIDE = 'DATABASE_CONNECTION';
+
+export const USERS_PROVIDE = 'USERS_CONNECTION';
+export const USERS_MODEL = 'Users';

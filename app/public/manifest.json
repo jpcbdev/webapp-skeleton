@@ -1,0 +1,18 @@
+{
+    "name": "example",
+    "short_name": "example",
+    "theme_color": "#17924Bff",
+    "background_color": "#fff",
+    "display": "fullscreen",
+    "orientation": "portrait",
+    "scope": "/",
+    "start_url": "/",
+    "icons": [
+        {
+            "src": "logo.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "splash_pages": null
+}

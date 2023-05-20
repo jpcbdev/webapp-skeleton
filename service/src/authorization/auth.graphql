@@ -1,0 +1,12 @@
+type Access {
+    token: String
+}
+
+input SigningInput {
+    searchCriteria: String!
+    password: String!
+}
+
+type Mutation {
+    signing(signingInput: SigningInput): Access
+}

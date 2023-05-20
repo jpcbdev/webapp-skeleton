@@ -1,0 +1,37 @@
+{
+  "name": "app",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start:dev": "next dev -p 3500",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.7.10",
+    "@types/node": "18.15.10",
+    "@types/react": "18.0.29",
+    "@types/react-dom": "18.0.11",
+    "date-fns": "^2.29.3",
+    "eslint": "8.36.0",
+    "eslint-config-next": "13.2.4",
+    "graphql": "^16.6.0",
+    "js-cookie": "^3.0.1",
+    "jspdf": "^2.5.1",
+    "next": "13.2.4",
+    "next-pwa": "^5.6.0",
+    "react": "18.2.0",
+    "react-day-picker": "^8.7.1",
+    "react-dom": "18.2.0",
+    "react-multi-select-component": "^4.3.4",
+    "react-table": "^7.8.0",
+    "react-tabs": "^6.0.0",
+    "toastify-js": "^1.12.0",
+    "typescript": "5.0.2"
+  },
+  "devDependencies": {
+    "@types/js-cookie": "^3.0.3",
+    "@types/toastify-js": "^1.11.1"
+  }
+}
